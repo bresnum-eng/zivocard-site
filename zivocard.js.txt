@@ -1,0 +1,36 @@
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', e => {
+    const targetId = link.getAttribute('href').substring(1);
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Menu mobile
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+if (navToggle && navLinks) {
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+}
+
+// Fade on scroll
+const fadeEls = document.querySelectorAll('.fade-on-scroll');
+
+const onScroll = () => {
+  const triggerBottom = window.innerHeight * 0.85;
+  fadeEls.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < triggerBottom) {
+      el.classList.add('fade-in');
+    }
+  });
+};
+
+window.addEventListener('scroll', onScroll);
+onScroll();

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mentions légales – ZivoCard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="zivocard.css">
+  <script src="zivocard.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <div class="logo"><img src="zivocard-logo.svg" style="height:32px;"></div>
+  <div class="nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="landing.html">Version Pro</a>
+  </div>
+  <button class="nav-toggle">☰</button>
+</nav>
+
+<section class="section card">
+  <h1>Mentions légales</h1>
+
+  <p>ZivoCard – Mathieu<br>Email : admin@zivocard.com</p>
+  <p>Hébergement : Google Firebase</p>
+</section>
+
+<footer>
+  © 2026 ZivoCard — Tous droits réservés<br><br>
+  <a href="confidentialite.html">Politique de Confidentialité</a> •
+  <a href="cgu.html">CGU</a> •
+  <a href="mentions.html">Mentions légales</a> •
+  <a href="cookies.html">Cookies</a>
+</footer>
+
+</body>
+</html>

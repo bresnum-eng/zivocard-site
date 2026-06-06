@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ZivoCard – Landing Pro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="zivocard.css">
+  <script src="zivocard.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <img src="zivocard-logo.svg" alt="ZivoCard" style="height:32px;">
+  </div>
+  <div class="nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="#pricing">Tarifs</a>
+    <a href="#proof">Confiance</a>
+  </div>
+  <button class="nav-toggle">☰</button>
+</nav>
+
+<section class="hero fade-on-scroll">
+  <div class="hero-left">
+    <h1>Votre <span>identité digitale Pro</span>, prête en 30 secondes.</h1>
+    <p>Centralisez vos infos pro dans une carte digitale unique, partageable par QR code signé, toujours à jour.</p>
+
+    <div class="hero-cta">
+      <button class="btn btn-primary">Créer ma ZivoCard</button>
+      <button class="btn btn-ghost">Voir un exemple</button>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="section grid grid-3 fade-on-scroll">
+  <div class="card">
+    <h3>🔐 Sécurité par design</h3>
+    <p>QR code signé, AppCheck, Firestore Rules strictes.</p>
+  </div>
+  <div class="card">
+    <h3>⚙️ Mise à jour instantanée</h3>
+    <p>Changez vos infos, votre QR code reste le même.</p>
+  </div>
+  <div class="card">
+    <h3>📊 Logs de sécurité</h3>
+    <p>Historique des changements sensibles.</p>
+  </div>
+</section>
+
+<section id="proof" class="section fade-on-scroll">
+  <h2>Conçu pour les professionnels exigeants.</h2>
+  <p class="section-center">Freelances, créateurs, indépendants : ZivoCard devient votre carte de visite vivante.</p>
+</section>
+
+<section id="pricing" class="section fade-on-scroll">
+  <h2 class="section-center">Des tarifs simples</h2>
+
+  <div class="grid grid-3">
+    <div class="card">
+      <h3>Starter</h3>
+      <p>0 € / mois</p>
+      <p>1 carte ZivoCard</p>
+    </div>
+
+    <div class="card" style="border-color: var(--violet); box-shadow: var(--shadow);">
+      <h3>Pro</h3>
+      <p>X € / mois</p>
+      <p>Cartes multiples, stats, personnalisation</p>
+    </div>
+
+    <div class="card">
+      <h3>Team</h3>
+      <p>Sur devis</p>
+      <p>Gestion d’équipe, branding global</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 ZivoCard — Tous droits réservés<br><br>
+  <a href="confidentialite.html">Politique de Confidentialité</a> •
+  <a href="cgu.html">CGU</a> •
+  <a href="mentions.html">Mentions légales</a> •
+  <a href="cookies.html">Cookies</a>
+</footer>
+
+</body>
+</html>

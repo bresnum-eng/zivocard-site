@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ZivoCard – Votre identité digitale moderne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="zivocard.css">
+  <script src="zivocard.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <img src="zivocard-logo.svg" alt="ZivoCard" style="height:32px;">
+  </div>
+  <div class="nav-links">
+    <a href="#features">Fonctionnalités</a>
+    <a href="landing.html">Version Pro</a>
+    <a href="#footer">Légal</a>
+  </div>
+  <button class="nav-toggle">☰</button>
+</nav>
+
+<section class="hero fade-on-scroll">
+  <div class="hero-left">
+    <h1>Votre <span>identité digitale</span>, claire et sécurisée.</h1>
+    <p>Créez une carte digitale professionnelle, partageable par QR code signé, toujours à jour.</p>
+    <div class="hero-cta">
+      <button class="btn btn-primary">Créer ma ZivoCard</button>
+      <a href="landing.html" class="btn btn-ghost">Voir la version Pro</a>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="section grid grid-3 fade-on-scroll">
+  <div class="card">
+    <h3>🔒 Sécurité</h3>
+    <p>QR code signé, AppCheck, Firestore Rules strictes.</p>
+  </div>
+  <div class="card">
+    <h3>⚡ Instantané</h3>
+    <p>Mises à jour en temps réel, QR code inchangé.</p>
+  </div>
+  <div class="card">
+    <h3>🎨 Moderne</h3>
+    <p>Design premium, interface claire, expérience fluide.</p>
+  </div>
+</section>
+
+<footer id="footer">
+  © 2026 ZivoCard — Tous droits réservés<br><br>
+  <a href="confidentialite.html">Politique de Confidentialité</a> •
+  <a href="cgu.html">CGU</a> •
+  <a href="mentions.html">Mentions légales</a> •
+  <a href="cookies.html">Cookies</a>
+</footer>
+
+</body>

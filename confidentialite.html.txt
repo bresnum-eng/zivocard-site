@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Politique de Confidentialité – ZivoCard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="zivocard.css">
+  <script src="zivocard.js" defer></script>
+</head>
+<body>
+
+<nav>
+  <div class="logo"><img src="zivocard-logo.svg" style="height:32px;"></div>
+  <div class="nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="landing.html">Version Pro</a>
+  </div>
+  <button class="nav-toggle">☰</button>
+</nav>
+
+<section class="section card">
+  <h1>Politique de Confidentialité – ZivoCard</h1>
+  <p>Dernière mise à jour : 2026</p>
+
+  <!-- Texte complet que je t’ai déjà rédigé -->
+  <p>ZivoCard protège vos données conformément au RGPD...</p>
+</section>
+
+<footer>
+  © 2026 ZivoCard — Tous droits réservés<br><br>
+  <a href="confidentialite.html">Politique de Confidentialité</a> •
+  <a href="cgu.html">CGU</a> •
+  <a href="mentions.html">Mentions légales</a> •
+  <a href="cookies.html">Cookies</a>
+</footer>
+
+</body>
+</html>
